@@ -1,0 +1,1 @@
+const mainNav=document.querySelector(".page-header__main-nav");mainNav.classList.remove("page-header__main-nav--no-js");const pageHeaderToggle=document.querySelector(".page-header__toggle");pageHeaderToggle.addEventListener("click",(function(){mainNav.classList.toggle("page-header__main-nav--opened")}));
